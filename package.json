@@ -1,0 +1,41 @@
+{
+  "name": "card-centering-calculator",
+  "version": "1.0.0",
+  "description": "Zero-dependency trading card centering ratio calculator (PSA, BGS, CGC) and grading break-even EV utility for Pokemon, TCG, and sports cards.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    }
+  },
+  "bin": {
+    "card-centering": "./bin/card-centering.js"
+  },
+  "scripts": {
+    "test": "node --test test/index.test.js"
+  },
+  "keywords": [
+    "card-grading",
+    "trading-cards",
+    "pokemon-tcg",
+    "sports-cards",
+    "psa",
+    "bgs",
+    "cgc",
+    "centering-calculator",
+    "tcg"
+  ],
+  "homepage": "https://cardgradingai.app/card-centering",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lolpo91/card-centering-calculator.git"
+  },
+  "author": "Card Grading AI <https://cardgradingai.app>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
